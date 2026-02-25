@@ -1,0 +1,13 @@
+print("Exercício 12- Aumento de salário")
+print("Leia o salário atual. Se salário < 2000 → aumento de 15% Se salário ≥ 2000 → aumento de 8% .Mostre o valor do aumento e o salário final.")
+
+salarioatual=float(input("Informe o seu salario R$"))
+
+if(salarioatual<2000):
+    aumento=salarioatual*(15/100)
+    salariocomaumento=salarioatual+aumento
+    print("O seu salario agora e de R$",salariocomaumento)
+else:
+    aumento=salarioatual*(8/100)
+    salariocomaumento=salarioatual+aumento
+    print("O seu salario agora e de R$",salariocomaumento)
