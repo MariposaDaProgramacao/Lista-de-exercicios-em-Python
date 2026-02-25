@@ -1,0 +1,9 @@
+print("Exercício 11- Pode votar?")
+print("Leia a idade e informe se a pessoa pode votar (>=16).")
+
+idade=int(input("Informe a sua idade:"))
+
+if(idade>=16):
+    print("Vc já pode votar.")
+else:
+    print("Vc não pode votar.")
