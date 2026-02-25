@@ -1,0 +1,13 @@
+print("Exercício 15-. Login simples ")
+print("Cadastre no código um usuário e senha (fixo) e depois leia usuário e senha digitado. Se bater → “acesso permitido” .Senão → “acesso negado” ")
+
+usuariofixo=("Shaya")
+senhafixa=("Banana")
+
+loginusuario=str(input("Informe o seu usuario:"))
+loginsenha=str(input("Informe a sua senha:"))
+
+if(loginusuario==usuariofixo and loginsenha==senhafixa):
+    print("Vc entrou :3")
+else:
+    print("Vc não entrou.")
