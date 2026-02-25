@@ -1,0 +1,7 @@
+print("Exercício 3-Idade em dias")
+print("Leia a idade em anos e mostre o equivalente em dias (considerar 365 por ano). ")
+
+idade=int(input("Informe quantos anos vc tem"))
+idadedias=idade*365
+
+print("A sua idade em dias e igual a:",idadedias)
