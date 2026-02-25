@@ -1,0 +1,9 @@
+print("Exercício 9-Classificação por idade ")
+print("Leia idade e diga: se menor de 18 → “menor de idade” se 18 ou mais → “maior de idade”")
+
+idade=int(input("Informe a sua idade:"))
+
+if(idade>=18):
+    print("Vc e maior de idade.")
+else:
+    print("Vc e menor de idade.")
