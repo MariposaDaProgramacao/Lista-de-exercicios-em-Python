@@ -1,0 +1,11 @@
+print("Exercício 8-Desconto")
+print("Leia o valor de uma compra. Se o valor for maior ou igual a 100, aplicar 10% de desconto. Mostre o valor final a pagar.")
+
+valorcompra=float(input("Informe o valor da sua compra R$:"))
+
+if(valorcompra>=100):
+    valordesconto=valorcompra*(10/100)
+    valorcomdesconto=valorcompra-valordesconto
+    print("O seu valor com desconto para a compra de R$",valorcompra," e de R$:",valorcomdesconto)
+else:
+    print("Você não ganhou nenhum desconto")
