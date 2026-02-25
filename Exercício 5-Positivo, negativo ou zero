@@ -1,0 +1,11 @@
+print("Exercício 5-Positivo, negativo ou zero ")
+print("Leia um número e informe se ele é positivo, negativo ou zero.")
+
+num=int(input('Informe um número:'))
+
+if(num>0):
+    print(" O número informado e positivo.")
+elif(num<0):
+    print(" O número informado e negativo.")
+else:
+    print("O número informado e igual a 0.")
