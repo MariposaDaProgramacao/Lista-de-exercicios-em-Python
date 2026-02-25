@@ -1,0 +1,11 @@
+print("Exercício 14- Triângulo possível?")
+print("Leia 3 lados. Se cada lado for menor que a soma dos outros dois → “forma triângulo” .Se não → “não forma triângulo”")
+
+lado1=float(input("Informe o primeiro lado:"))
+lado2=float(input("Informe o segundo lado:"))
+lado3=float(input("Informe o terceiro lado:"))
+
+if lado1<lado2+lado3 and lado2<lado1+lado3 and lado3<lado1+lado2:
+    print("Pode ser um triangulo!")
+else:
+    print("Não pode ser um triangulo!")
