@@ -1,0 +1,9 @@
+print("Exercício 2-Média de duas notas ")
+print("Leia duas notas e mostre a média.")
+
+
+num1=int(input("Informe o primeiro número para caucularmos a media:"))
+num2=int(input("Informe o segundo  número para caucularmos a media:"))
+
+media=num1+num2/2
+print(media)
