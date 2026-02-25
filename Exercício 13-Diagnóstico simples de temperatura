@@ -1,0 +1,11 @@
+print("Exercício 13-Diagnóstico simples de temperatura ")
+print("Leia temperatura em °C:se < 37 → “normal” 37 até 37.9 → “febril” ≥ 38 → “febre alta”")
+
+temperatura=float(input("Qual a sua temperatura atual:"))
+
+if (temperatura<37):
+    print("A sua temperatura esta normal.")
+elif(temperatura>=37 and temperatura<=37.9):
+    print("Vc esta febril.")
+else:
+    print("Vc esta com febre.")
