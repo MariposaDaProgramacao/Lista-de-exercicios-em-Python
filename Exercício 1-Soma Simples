@@ -1,0 +1,8 @@
+print("Exercício 1-Soma Simples")
+print("Leia dois números e mostre a soma deles.")
+
+num1=int(input("Informe o primeiro número a ser somado:"))
+num2=int(input("Informe o segundo  número a ser somado:"))
+
+soma=num1+num2
+print(soma)
